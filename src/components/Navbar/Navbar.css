@@ -1,0 +1,65 @@
+
+ 
+  .navbar-nav .nav-item .nav-link.active {
+    /* color: rgb(0, 182, 255); Change this to the desired color */
+    text-decoration: none;
+    /* text-shadow: 1px 1px #ded3d3; */
+    background-color: #192c57 !important;
+    border-radius: 7px;
+    color: white !important;
+    font-size: 18px;
+    padding: 5px 13px;
+    font-weight: 400;
+
+  }
+
+  .about p{
+    font-size: 12px;
+  }
+  .navbar-nav .nav-item .font{
+    padding: 7px 0px !important;
+  }
+  .navbar-nav .nav-item .nav-link{
+    color: #192c57;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 7px 20px;
+  }
+  .logo-set {
+    max-width: 140px;
+    /* height: 60px; */
+  }
+  .navbar-nav{
+    align-items: center !important;
+  }
+ 
+  @media (max-width: 768px) {
+    .logo-set {
+      max-width: 140px;
+      /* height: 60px; */
+    }
+    .react-switch-bg{
+      height: 19px !important;
+      width: 31px !important;
+    }
+    .about p{
+      font-size: 12px;
+    }
+    .react-switch-handle{
+      height: 17px !important;
+      width: 17px !important;
+      transform: translateX(13px) !important;
+      transition: 0.6s;
+      /* left: -11px; */
+    }
+  }
+  @media (max-width: 1190px) {
+  .navbar-nav .nav-item .font {
+    color: #192c57;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 7px 0px;
+}
+  }
